@@ -17,11 +17,15 @@ A modern, responsive URL shortener built with React, Vite, Tailwind CSS, and int
 
 - **Frontend**: React 18, Vite
 - **Styling**: Tailwind CSS
-- **UI Components**: shadcn/ui
 - **Icons**: Lucide React
 - **Animations**: Framer Motion
 - **API**: Rebrandly URL Shortener API
 - **Backend**: Node.js/Express (for API key security)
+
+## 📸 Screenshot
+
+<img width="1234" height="1203" alt="image" src="https://github.com/user-attachments/assets/90fc0ae6-abe7-4880-a260-c4751dc183b4" />
+
 
 ## 📁 Project Structure
 
