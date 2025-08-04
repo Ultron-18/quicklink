@@ -78,7 +78,7 @@ const URLShortener = () => {
     setShortenedUrl('');
 
     try {
-      const response = await fetch('/api/shorten', {
+      const response = await fetch( `${import.meta.env.VITE_API_URL}/api/shorten`, {
         method: 'POST',
         headers: { 
           'Content-Type': 'application/json' 
