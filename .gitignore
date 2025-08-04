@@ -3,9 +3,14 @@
 .env.local
 .env.production
 .env.development
-server/server/.env
-server/server/.env.local
-server/server/.env.production
+server/.env
+server/.env.local
+server/.env.production
+
+node_modules
+dist
+dist-ssr
+*.local
 
 # Logs
 logs
@@ -15,11 +20,9 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+.vite
 
-node_modules
-dist
-dist-ssr
-*.local
+
 
 # Editor directories and files
 .vscode/*
@@ -31,3 +34,5 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+  
