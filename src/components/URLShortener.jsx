@@ -120,7 +120,7 @@ const URLShortener = () => {
       
       // Handle specific error types
       if (err.message.includes('quota exceeded')) {
-        setError('if the custom do not work. Please try again with three letters or Dont use it.');
+        setError('If the custom slug doesn’t work, please try again using three letters or choose the free trial custom slug exceeded.');
       } else if (err.message.includes('already exists')) {
         setError('This custom slug is already taken. Please try a different one.');
       } else if (err.message.includes('Invalid URL')) {
